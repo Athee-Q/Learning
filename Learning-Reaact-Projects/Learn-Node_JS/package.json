@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "node-js-course",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "AtheeQ",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

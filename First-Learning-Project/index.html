@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        #more ,#more2 ,#more3 ,#more4{
+            display:none;
+        }
+        .cont{
+            width:250px;
+            height: 450px;
+        }
+    </style>
+</head>
+<body oncontextmenu="false">
+    <!-- Nav Bar -->
+    <div class="header">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <div class="container">
+                <a href="index.html" class="navbar-brand"> التطبيق للمسلمين</a>
+                <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#myNav"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="myNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item"><a href="home.html" class="nav-link">HOME</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">CONTENT</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Aaaa</a></li>
+                                <li><a href="#" class="dropdown-item">Aaaa</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a href="#" class="dropdown-item">Aaaa</a></li>
+                            </ul>
+                        
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
+                        <a href="rigister.html"  class="btn btn-outline-light"> <i class="fa-solid fa-right-to-bracket  "></i>Rigister</a>
+                    </ul>
+                </div>
+            </div>
+        </nav></div>
+    <!-- Jumbotron not in boostrap 5 just i named jumbotron-->
+    <div class="bg-body-tertiary ">
+        <div class="container text-center">
+            <h1 class="display-6 pt-4"> أهلًا و سهلًا و مرحبا</h1>
+            <p class="lead pt-2" ><strong>"التطبيق للمسلمين"</strong> is an app for Muslim </p>
+            <hr class="m-2">
+            <p class="lead pb-5">  Basic requirements in Islam refer to the fundamental beliefs and practices that every Muslim is expected to adhere to. These requirements are central to the faith and form the foundation of a Muslim's relationship with Allah (God) and their fellow human beings. Here are the key basic requirements of a Muslim </p>
+            <div class="pb-4 d-sm-block">
+                <a href="home.html" class="btn btn-outline-primary  "><span class="glyphicon glyphicon-home"></span><i class="fa-solid fa-house p-2"></i>Enter TO Home</a>
+            </div>
+        </div>
+    </div>
+    <!-- total card content -->
+    <div class="container ">
+        <div class=" row">
+    <!-- content 1 -->
+            <div class="col">
+                <div class="card mt-5 mb-5 cont" >
+                    <img src="Shahadah.jpg" alt="Shahada" class="card-img-top"  height="150px">
+                    <div class="card-body overflow-auto">
+                        <h5 class="card-title">The Shahada</h5>
+                        <p class="card-text"> “I bear witness that there is no deity (none worthy of worship) but Allah, and I bear witness that Muhammad is the Messenger of Allah.”<span id="dots">...</span><span id="more"> 
+                        <strong>Shahada In Arabic</strong><br>
+                        أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا ٱللَّٰهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ ٱللَّٰهِ
+                         </span></p>
+                         <button class="btn btn-outline-danger" onclick="rm()" id="read">Read More</button>
+                        </div>
+                        <div class="card-footer">
+                           <small class="text-body-secondary">Last updated 3 mins ago</small>
+                         </div>
+                </div>
+            </div>
+    <!-- content 2 -->        
+            <div class="col">
+
+                <div class="card mt-5 mb-5 cont" >
+                    <img src="prayer.jpg.jpg" alt="Shahada" class="card-img-top " height="150">
+                    <div class="card-body overflow-auto">
+                        <h5 class="card-title">Salah (Prayer)</h5>
+                        <p class="card-text"> Muslims are required to perform five daily prayers facing the Kaaba in Mecca. These prayers are performed at specific times:<span id="dots2">...</span><span id="more2">  before dawn, midday, afternoon, after sunset, and at night. Salah involves physical postures, recitation of verses from the Quran, and supplications.
+                       >وعن بريدة رضي الله عنه عن النبي صلى الله عليه وسلم :   " الذي بيننا وبينهم الصلاة، فمن تركها فقد " (( الترمذي :  حديث حسن )).
+
+                            Buraidah (May Allah be pleased with him) reported: Messenger of Allah (ﷺ) said, "That which differentiates us from the disbelievers and hypocrites is our performance of Salat. He who abandons it, becomes a disbeliever." [At-Tirmidhi].
+                            
+                            Riyad as-Salihin 1079
+                           </span>
+                         </p>
+                         <button class="btn btn-outline-danger" onclick="rm1()" id="read2">Read More</button>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                      </div>
+                </div>
+            </div>
+    <!-- content 3 -->        
+            <div class="col">
+
+                <div class="card mt-5 mb-5 cont" >
+                    <img src="Obligatory-Zakat.jpg" alt="Shahada" class="card-img-top" height="150px" >
+                    <div class="card-body overflow-auto">
+                        <h5 class="card-title">Zakath(Charity)</h5>
+                             <p class="card-text"> Muslims are obligated to give a portion of their wealth (usually 2.5%) to those in need, as a means of purifying their wealth and supporting <span id="dots3">...</span><span id="more3"> the less fortunate in society.
+                                 
+                            >حَدَّثَنَا ابْنُ نُمَيْرٍ، قَالَ حَدَّثَنِي أَبِي، حَدَّثَنَا إِسْمَاعِيلُ، عَنْ قَيْسٍ، قَالَ قَالَ جَرِيرُ بْنُ عَبْدِ اللَّهِ بَايَعْتُ النَّبِيَّ صلى الله عليه وسلم عَلَى إِقَامِ الصَّلاَةِ، وَإِيتَاءِ الزَّكَاةِ، وَالنُّصْحِ لِكُلِّ مُسْلِمٍ.
+                                 Narrated Jarir bin `Abdullah:
+
+                                 I gave the pledge of allegiance to the Prophet (ﷺ) for offering prayer perfectly, giving Zakat, and giving good advice to every Muslim.</span>
+                             </p>
+                             <button class="btn btn-outline-danger" onclick="rm2()" id="read3">Read More</button>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">Last updated 3 mins ago</small>
+                     </div>
+                </div>
+            </div>
+    <!-- content 4 -->        
+            <div class="col">
+
+                <div class="card mt-5 mb-5 cont" >
+                    <img src="sawm-hero.jpg" alt="Shahada" class="card-img-top" height="150px" >
+                    <div class="card-body overflow-auto">
+                        <h5 class="card-title">Fasting during Ramadan</h5>
+                        <p class="card-text">  Muslims fast from dawn until sunset during the holy month of Ramadan. This fasting includes abstaining  <span id="dots4">...</span><span id="more4">from food, drink, smoking, and other physical needs.It is a time of spiritual reflection, increased devotion, and self-discipline. حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا إِسْمَاعِيلُ بْنُ جَعْفَرٍ، عَنْ أَبِي سُهَيْلٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ  " إِذَا جَاءَ رَمَضَانُ فُتِحَتْ أَبْوَابُ الْجَنَّةِ ".
+                            Narrated Abu Huraira:
+ 
+Allah's Messenger (ﷺ) said, "When Ramadan begins, the gates of Paradise are opened."
+
+
+                        </span>
+                            </p>
+                    
+                        <button class="btn btn-outline-danger" onclick="rm3()" id="read4">Read more</button>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h4 class="text-light display-6  mt-2">التطبيق للمسلمين</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- script --> 
+   <script>
+    function rm() {
+        let dots= document.getElementById('dots');
+        let more= document.getElementById('more');
+        let read= document.getElementById('read');
+        if(dots.style.display==="none"){
+            more.style.display="none";
+            read.innerText="Read More";
+            dots.style.display="inline";
+        }else{
+            dots.style.display="none";
+            read.innerText="Read less";
+            more.style.display="inline";
+        }
+        console.log(dots.style.display==="none"); 
+    }
+    function rm1() {
+        let dots2= document.getElementById('dots2');
+        let more2= document.getElementById('more2');
+        let read2= document.getElementById('read2');
+        if(dots2.style.display==="none"){
+            more2.style.display="none";
+            read2.innerText="Read More";
+            dots2.style.display="inline";
+        }else{
+            dots2.style.display="none";
+            read2.innerText="Read Less";
+            more2.style.display="inline";
+        }
+    }
+    function rm2() {
+        let dots3= document.getElementById('dots3');
+        let more3= document.getElementById('more3');
+        let read3= document.getElementById('read3');
+        if(dots3.style.display==="none"){
+            more3.style.display="none";
+            read3.innerText="Read More";
+            dots3.style.display="inline";
+        }else{
+            dots3.style.display="none";
+            read3.innerText="Read Less";
+            more3.style.display="inline";
+        }
+    }
+    function rm3() {
+        let dots4= document.getElementById('dots4');
+        let more4= document.getElementById('more4');
+        let read4= document.getElementById('read4');
+        if(dots4.style.display==="none"){
+            more4.style.display="none";
+            read4.innerText="Read More";
+            dots4.style.display="inline";
+        }else{
+            dots4.style.display="none";
+            read4.innerText="Read Less";
+            more4.style.display="inline";
+        }
+    }
+   </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

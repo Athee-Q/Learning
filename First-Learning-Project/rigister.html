@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- header navBar -->
+    <nav class="navbar navbar-expand-md  bg-dark navbar-dark">
+
+        <div class="container">
+            <a href="index.html" class="navbar-brand">التطبيق للمسلمين</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="myNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="home.html" class="nav-link">HOME</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">CONTENT</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Aaaaa</a>
+                            <a href="#" class="dropdown-item">Bbbbb</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">Ccccc</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">CANTACT</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
+                    <a href="rigister.html" class="btn btn-outline-light btn-sm"> <i
+                            class="fa-solid fa-right-to-bracket mx-2 "></i>Rigister</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Register -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7">
+                <img src="" alt="">
+            </div>
+            <!-- logIn Form -->
+            <div class="col my-5">
+                <div class="card bg-body-tertiary">
+                    <div class="card-body ">
+                        <form action="" method="post" name="login" novalidate>
+                            <div class="form-group mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fa fa-envelope text-danger "></i></span>
+                                    <input type="text" class="form-control" id="email" name="email"
+                                        placeholder="Enter_mail@mail.com" required>
+                                </div>
+                                <div class="invalid-feedback">Check your mail ID.</div>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <div class=" input-group">
+                                    <span class="input-group-text"><i class="fa fa-key text-success "></i></span>
+                                    <input type="password" class="form-control" id="password" name="password"
+                                        placeholder=" Enter Password" required>
+                                </div>
+                                <div class="invalid-feedback">Password incorrectp.lease check your password.</div>
+                            </div>
+                            <div class="form-group d-grid">
+                                <button type="submit" value="login" class="btn btn-primary"> <i
+                                        class="fa fa-unlock-alt mx-2"></i> logIn</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <small class="d-block justify-content-center text-center mt-2 text-muted">Don't have an account ? <a
+                        href="#signUp">signUp</a></small>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const logIn = document.forms.login;
+        const vtnEl = document.querySelector('form button');
+        logIn.addEventListener('submit',()=>{
+            event.preventDefault();
+            const {email,password}=login.elements;
+            console.log(email,password);
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

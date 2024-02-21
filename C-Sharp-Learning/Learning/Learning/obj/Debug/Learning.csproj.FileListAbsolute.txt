@@ -1,0 +1,7 @@
+C:\Users\athee\OneDrive\Desktop\C-Sharp\Learning\Learning\bin\Debug\Learning.exe.config
+C:\Users\athee\OneDrive\Desktop\C-Sharp\Learning\Learning\bin\Debug\Learning.exe
+C:\Users\athee\OneDrive\Desktop\C-Sharp\Learning\Learning\bin\Debug\Learning.pdb
+C:\Users\athee\OneDrive\Desktop\C-Sharp\Learning\Learning\obj\Debug\Learning.exe
+C:\Users\athee\OneDrive\Desktop\C-Sharp\Learning\Learning\obj\Debug\Learning.pdb
+C:\Users\athee\OneDrive\Desktop\C-Sharp\Learning\Learning\obj\Debug\Learning.csproj.AssemblyReference.cache
+C:\Users\athee\OneDrive\Desktop\C-Sharp\Learning\Learning\obj\Debug\Learning.csproj.CoreCompileInputs.cache

@@ -1,0 +1,128 @@
+.headingsContainer {
+    text-align: center;
+}
+
+.headingsContainer p {
+    color: gray;
+}
+
+
+.subcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subcontainer a {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+span.forgotpwd a {
+    float: right;
+    color: whitesmoke;
+    padding-top: 16px;
+}
+
+.forgotpwd a {
+    color: whitesmoke;
+}
+
+.forgotpwd a:link {
+    text-decoration: none;
+}
+
+.headingsContainer {
+    text-align: center;
+}
+
+.headingsContainer p {
+    color: gray;
+}
+
+.mainContainer {
+    padding: 16px;
+}
+
+input.password {
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 15px 18px;
+    box-sizing: border-box;
+}
+
+input.text {
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 15px 18px;
+    box-sizing: border-box;
+}
+
+.buttonsubmit {
+    background-color: rgb(238, 172, 85);
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    margin: 7px 0;
+    width: 100%;
+    font-size: 18px;
+}
+
+.buttonsubmit:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.logindiv {
+    width: 35rem;
+    margin: auto;
+    color: whitesmoke;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: #112B3C;
+    border-radius: 12px;
+
+    padding: 20px 25px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgrey;
+    ;
+}
+
+/* Media queries for the responsiveness of the page */
+@media screen and (max-width: 600px) {
+    logindiv {
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    logindiv {
+        width: 20rem;
+    }
+}
+
+.sidenavfixed {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    overflow-y: hidden;
+    height: -webkit-fill-available;
+}
+
+.navcolr{
+    background-color:"rgb(17, 43, 60)" !important
+}

@@ -1,0 +1,85 @@
+{
+    "socialmedia":[
+        {"url":"#","font":"fa-brands fa-facebook-f"},
+        {"url":"#","font":"fa-brands fa-twitter"},
+        {"url":"#","font":"fa-brands fa-linkedin-in"},
+        {"url":"#","font":"fa-brands fa-youtube" },
+        {"url":"#","font":"fa-brands fa-instagram"}
+    ],
+    "contact":[
+        {"content":"+91 9876543210","url":"#" , "font":"fa-brands fa-whatsapp"},
+        {"content":"+91 9876543210","url":"#" , "font":"fa-solid fa-phone"},
+        {"content":"demo@csit.com","url":"mailto:demo@csit.com" , "font":"fa-solid fa-envelope"},
+        {"content":"What Client Say","url":"#" , "font":"fa-solid fa-user"}
+    ],
+    "register":[
+        {"content":"Become Partner","url":"#"},
+        {"content":"Brochure","url":"#"},
+        {"content":"FAQ's","url":"#"}
+    ],
+    "logo":{
+        "url":"#" , "image": "../Assets/Image/logo.jpg"
+      },
+    "menu":[
+        {"content":"HOME" , "url":"#"},
+        {"content":"COMPANY" , "url":"#"},
+        {"content":"PRODUCT" , "url":"#"},
+        {"content":"SERVICES" , "url":"#"},
+        {"content":"TRAVEL-APPS" , "url":"#"},
+        {"content":"SUPPLIERS" , "url":"#"},
+        {"content":"FEATURES" , "url":"#"},
+        {"content":"CONTACT" , "url":"#"}
+    ],
+    "company": [
+        { "content": "About Us", "./about.html": "#" },
+        { "content": "Testimonials", "url": "#" },
+        { "content": "What Client Say", "url": "#" },
+        { "content": "Success Stories", "url": "#" },
+        { "content": "Director's Message", "url": "#" },
+        { "content": "Career", "url": "#" },
+        { "content": "FAQ's", "url": "#" },
+        { "content": "News", "url": "#" },
+        { "content": "Technoheaven Lite", "url": "#" },
+        { "content": "Travel Tech Event", "url": "#" },
+        { "content": "Technoheaven Award", "url": "#" }
+    ],
+    "product": [
+        { "content": "B2C Solution", "url": "#" },
+        { "content": "B2B Solution", "url": "#" },
+        { "content": "Travel Agency Software", "url": "#" },
+        { "content": "Tour Guide-with Royalty Program", "url": "#" },
+        { "content": "Dynamic Hotel Mapping", "url": "#" },
+        { "content": "Technoheaven Travel Markketplace", "url": "#" },
+        { "content": "Multi Language Compatibility", "url": "#" },
+        { "content": "Back Office Hotel Contracting", "url": "#" },
+        { "content": "Back Office Hotel Contracting", "url": "#" },
+        { "content": "Module", "url": "#" },
+        { "content": "Hotel Chennel Manager", "url": "#" },
+        { "content": "Package Booking System", "url": "#" },
+        { "content": "Dynamic Packaging", "url": "#" },
+        { "content": "NDC", "url": "#" },
+        { "content": "Travel CRM", "url": "#" },
+        { "content": "XML Integrations", "url": "#" },
+        { "content": "Hotel Contracting", "url": "#" },
+        { "content": "Ticketing Barcode Scan", "url": "#" },
+        { "content": "City Pass", "url": "#" },
+        { "content": "B2B Distribution Manager for Hotels & Resorts", "url": "#" },
+        { "content": "Agents Email campaigning Module", "url": "#" },
+        { "content": "Sub DMC Module", "url": "#" },
+        { "content": "Hotel Booking API", "url": "#" },
+        { "content": "Car Rental Reservation System", "url": "#" },
+        { "content": "Hajj and Umrah Software", "url": "#" },
+        { "content": "Mobile App", "url": "#" },
+        { "content": "Shopping Cart Application", "url": "#" },
+        { "content": "Travel Management System", "url": "#" },
+        { "content": "Meal/Restaurant Management", "url": "#" },
+        { "content": "Techno Universal Tour API", "url": "#" },
+        { "content": "Travel Mobile Affiliate", "url": "#" },
+        { "content": "OTAs connectivity via", "url": "#" },
+        { "content": "Technoheaven Channel Manager", "url": "#" },
+        { "content": "Tour Booking Software", "url": "#" },
+        { "content": "travel Insurance Module", "url": "#" },
+        { "content": "Flight API", "url": "#" }
+    ]
+}
+   

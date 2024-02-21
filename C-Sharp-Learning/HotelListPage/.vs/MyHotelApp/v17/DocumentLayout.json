@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\athee\\OneDrive\\Desktop\\C-Sharp\\HotelListPage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0283F515-907E-4677-8CE3-4CF9DD4B9FE7}|HotelListPage\\HotelListPage.csproj|c:\\users\\athee\\onedrive\\desktop\\c-sharp\\hotellistpage\\hotellistpage\\nonveg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0283F515-907E-4677-8CE3-4CF9DD4B9FE7}|HotelListPage\\HotelListPage.csproj|solutionrelative:hotellistpage\\nonveg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0283F515-907E-4677-8CE3-4CF9DD4B9FE7}|HotelListPage\\HotelListPage.csproj|c:\\users\\athee\\onedrive\\desktop\\c-sharp\\hotellistpage\\hotellistpage\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0283F515-907E-4677-8CE3-4CF9DD4B9FE7}|HotelListPage\\HotelListPage.csproj|solutionrelative:hotellistpage\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0283F515-907E-4677-8CE3-4CF9DD4B9FE7}|HotelListPage\\HotelListPage.csproj|c:\\users\\athee\\onedrive\\desktop\\c-sharp\\hotellistpage\\hotellistpage\\chinese.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0283F515-907E-4677-8CE3-4CF9DD4B9FE7}|HotelListPage\\HotelListPage.csproj|solutionrelative:hotellistpage\\chinese.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0283F515-907E-4677-8CE3-4CF9DD4B9FE7}|HotelListPage\\HotelListPage.csproj|c:\\users\\athee\\onedrive\\desktop\\c-sharp\\hotellistpage\\hotellistpage\\vegterian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0283F515-907E-4677-8CE3-4CF9DD4B9FE7}|HotelListPage\\HotelListPage.csproj|solutionrelative:hotellistpage\\vegterian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0283F515-907E-4677-8CE3-4CF9DD4B9FE7}|HotelListPage\\HotelListPage.csproj|c:\\users\\athee\\onedrive\\desktop\\c-sharp\\hotellistpage\\hotellistpage\\hotellist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0283F515-907E-4677-8CE3-4CF9DD4B9FE7}|HotelListPage\\HotelListPage.csproj|solutionrelative:hotellistpage\\hotellist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\Users\\athee\\OneDrive\\Desktop\\C-Sharp\\HotelListPage\\HotelListPage\\Hotel.cs",
+              "RelativeDocumentMoniker": "HotelListPage\\Hotel.cs",
+              "ToolTip": "C:\\Users\\athee\\OneDrive\\Desktop\\C-Sharp\\HotelListPage\\HotelListPage\\Hotel.cs",
+              "RelativeToolTip": "HotelListPage\\Hotel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T18:06:08.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Chinese.cs",
+              "DocumentMoniker": "C:\\Users\\athee\\OneDrive\\Desktop\\C-Sharp\\HotelListPage\\HotelListPage\\Chinese.cs",
+              "RelativeDocumentMoniker": "HotelListPage\\Chinese.cs",
+              "ToolTip": "C:\\Users\\athee\\OneDrive\\Desktop\\C-Sharp\\HotelListPage\\HotelListPage\\Chinese.cs",
+              "RelativeToolTip": "HotelListPage\\Chinese.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAgwBAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T09:17:03.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Vegterian.cs",
+              "DocumentMoniker": "C:\\Users\\athee\\OneDrive\\Desktop\\C-Sharp\\HotelListPage\\HotelListPage\\Vegterian.cs",
+              "RelativeDocumentMoniker": "HotelListPage\\Vegterian.cs",
+              "ToolTip": "C:\\Users\\athee\\OneDrive\\Desktop\\C-Sharp\\HotelListPage\\HotelListPage\\Vegterian.cs",
+              "RelativeToolTip": "HotelListPage\\Vegterian.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAgwAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T09:16:50.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NonVeg.cs",
+              "DocumentMoniker": "C:\\Users\\athee\\OneDrive\\Desktop\\C-Sharp\\HotelListPage\\HotelListPage\\NonVeg.cs",
+              "RelativeDocumentMoniker": "HotelListPage\\NonVeg.cs",
+              "ToolTip": "C:\\Users\\athee\\OneDrive\\Desktop\\C-Sharp\\HotelListPage\\HotelListPage\\NonVeg.cs",
+              "RelativeToolTip": "HotelListPage\\NonVeg.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T09:16:29.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HotelList.cs",
+              "DocumentMoniker": "C:\\Users\\athee\\OneDrive\\Desktop\\C-Sharp\\HotelListPage\\HotelListPage\\HotelList.cs",
+              "RelativeDocumentMoniker": "HotelListPage\\HotelList.cs",
+              "ToolTip": "C:\\Users\\athee\\OneDrive\\Desktop\\C-Sharp\\HotelListPage\\HotelListPage\\HotelList.cs",
+              "RelativeToolTip": "HotelListPage\\HotelList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T09:15:56.005Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

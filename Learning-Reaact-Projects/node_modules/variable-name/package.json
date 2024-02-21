@@ -1,0 +1,26 @@
+{
+  "name": "variable-name",
+  "version": "0.0.1",
+  "description": "Generate a variable name from given string",
+  "main": "index.js",
+  "scripts": {
+    "test": "fox"
+  },
+  "devDependencies": {
+    "prova": "*"
+  },
+  "keywords": [
+    "variable",
+    "name",
+    "naming"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/variable-name.git",
+    "type": "git"
+  },
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
+  "license": "BSD",
+  "dependencies": {
+    "anglicize": "0.0.5"
+  }
+}

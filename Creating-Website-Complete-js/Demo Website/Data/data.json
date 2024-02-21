@@ -1,0 +1,84 @@
+{
+  "logo": {
+    "id": 1,
+    "alt": "Code-Art-Logo",
+    "img": "../Assets/image/CodeArtLogo.png",
+    "url": "/"
+  },
+  "menu": [
+    { "id": 2, "label": "Home", "url": "/" },
+    { "id": 3, "label": "Free Courses", "url": "./freeCourses.html" },
+    { "id": 4, "label": "About Us", "url": "/about" },
+    { "id": 5, "label": "Contact Us", "url": "/contact" },
+    { "id": 6, "label": "More", "url": "" }
+  ],
+  "freeCourses": [
+    {
+      "id": 6,
+      "image": "../Assets/image/html.png",
+      "title": "HTML",
+      "content": "Frontent Web Technology"
+    },
+    {
+      "id": 7,
+      "image": "../Assets/image/css.png",
+      "title": "CSS",
+      "content": "Frontent Web Technology"
+    },
+    {
+      "id": 8,
+      "image": "../Assets/image/css.png",
+      "title": "JAVA SCRIPT",
+      "content": "Frontent Web Technology"
+    },
+    {
+      "id": 9,
+      "image": "",
+      "title": "REACT JS",
+      "content": "Frontent Web Technology"
+    },
+    {
+      "id": 10,
+      "image": "",
+      "title": "C#",
+      "content": "Programming Languages"
+    },
+    {
+      "id": 11,
+      "image": "",
+      "title": "SQL",
+      "content": "Database Courses"
+    }
+  ],
+  "feedback": [
+    {
+      "content": "Awesome video , Superb Teaching , Iwas preparing for my interview and this video was very helpful. ",
+      "name": "JASAM"
+    },
+    {
+      "content": "CodeArt is the best platform to learn programming languages and technologies in native language. They tech each and every topic clearly in Tamil along with the demo session to make us understand without any doubt, and to be very familiar with the topic.",
+      "name": "NABEES"
+    },
+    {
+      "content": "Very useful for me. I was writing codes for my project by imply copying the codes rom internet as per my requirements without clear understanding about it. But your explanation cleared all my doubts and i'm going to rewrite the codes.",
+      "name": "MUHAMMAD"
+    },
+    {
+      "content": "Awesome video, Superb Teaching , I was preparing for my interview and this video was very helpful.",
+      "name": "MAHADHIR"
+    }
+  ],
+  "footer":[
+      { "id": 2, "label": "Home", "url": "/" },
+      { "id": 3, "label": "Free Courses", "url": "/courses" },
+      { "id": 4, "label": "About Us", "url": "/about" },
+      { "id": 5, "label": "Contact Us", "url": "/contact" },
+      { "id": 2, "label": "Channel", "url": "" }
+  ],
+  "socialMedia":[
+    { "id": 1, "class": "fa-brands fa-youtube", "url": "/" },
+    { "id": 1, "class": "fa-solid fa-envelope", "url": "/" },
+    { "id": 1, "class": "fa-solid fa-envelope", "url": "/" },
+    { "id": 1, "class": "fa-brands fa-instagram", "url": "/" }
+  ]
+}
